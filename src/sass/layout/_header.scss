@@ -1,0 +1,40 @@
+.header_nav{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #ffffff26;
+    &_container{
+        position: absolute;
+        left: 1rem;
+        &_span{
+            font-size: 4.2rem;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+    &_nav{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        position: absolute;
+        right: 1rem;
+        &_ul{
+            justify-content: end;
+          
+            &_li{
+                display: inline-flex;
+                justify-content: end;
+                padding: 0rem 1rem;
+                    &_a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 2.75rem;
+                        // font-family: Woody;
+                        text-transform: capitalize;
+                    }
+            }
+        }
+    }
+}

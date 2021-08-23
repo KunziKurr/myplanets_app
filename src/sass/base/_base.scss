@@ -1,0 +1,40 @@
+*, 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:Clydesdale-Regular;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-black;
+    padding:0rem;
+    box-sizing: border-box;
+    background-color: $base_color;
+}
+@font-face {
+    font-family: "Clydesdale-Regular";
+    src: url("./fonts/Clydesdale-Book.ttf");
+    }
+  @font-face {
+    font-family: "Clydesdale-ExtraBold";
+    src: url("./fonts/Clydesdale-ExtraBold.ttf");
+  }
+  @font-face {
+    font-family: "Clydesdale-Light";
+    src: url("./fonts/Clydesdale-Light.ttf");
+  }
+  @font-face {
+    font-family: "Clydesdale-Medium";
+    src: url("./fonts/Clydesdale-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Woody";
+    src: url("./fonts/woody.ttf");
+  }
+//   
