@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="header_nav">
+        <header className="header_nav">
             <div className="header_nav_container">
                 <span className="header_nav_container_span">the planets</span>
             </div>
@@ -19,7 +19,7 @@ const Header = () => {
                     <li className="header_nav_nav_ul_li"><a href="#" className="header_nav_nav_ul_li_a">pluto</a></li>
                 </ul>   
             </nav>
-        </div>
+        </header>
     )
 }
 

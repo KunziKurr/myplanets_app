@@ -3,7 +3,7 @@
     height: 12vh;
     display: flex;
     align-items: center;
-    position: relative;
+    position: absolute;
     border-bottom: 1px solid #ffffff26;
     &_container{
         position: absolute;
@@ -30,7 +30,7 @@
                     &_a{
                         text-decoration: none;
                         color: #fff;
-                        font-size: 2.75rem;
+                        font-size: 2.95rem;
                         // font-family: Woody;
                         text-transform: capitalize;
                     }
