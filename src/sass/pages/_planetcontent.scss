@@ -13,6 +13,9 @@
         width:25vw;
         display: grid;
         margin-right: 7rem;
+        @media (max-height:767px) {
+            margin-top: -1.5rem;
+        }
         &_title{
             font-size: 5.5rem;
             text-transform: uppercase;
@@ -64,6 +67,9 @@
                 border:1px solid #ffffff26;
                 position: relative;
                 margin: 2rem 1rem;
+                @media (max-height:767px) {
+                    padding: 1rem 7rem;
+                }
                
                 &_span{
                     position: absolute;
@@ -81,6 +87,9 @@
                     position: relative;
                     top: 1rem;
                     left: -6rem;
+                    @media (max-height:767px) {
+                        left: -4rem;
+                    }
                 }
             }
         }

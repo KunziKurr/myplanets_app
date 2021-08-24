@@ -1,7 +1,7 @@
 import React from 'react'
 import planets from 'npm-solarsystem';
 
-let mercury = planets.getSaturn();
+let mercury = planets.getEarth();
 console.log(mercury);
 const PlanetContent = () => {
     return (
@@ -11,7 +11,7 @@ const PlanetContent = () => {
            </div>
            <div className="planet_content_sidebar">
                <h1 className="planet_content_sidebar_title">
-                    earth
+               {mercury.radius}
                </h1>
                <p className="planet_content_sidebar_p">
                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
