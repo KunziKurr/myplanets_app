@@ -12,15 +12,15 @@ const Header = (props) => {
             </div>
             <nav className="header_nav_nav">
                 <ul className="header_nav_nav_ul">
-                  <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("mercury")}} >mercury</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("venus")}}  >venus</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("earth")}}  >earth</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("mars")}} >mars</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("jupiter")}} >jupiter</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("saturn")}} >saturn</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("uranus")}} >uranus</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("neptune")}} >neptune</li>
-                    <li className="header_nav_nav_ul_li" onClick={()=>{handleClick("pluto")}} >pluto</li>
+                  <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("mercury")}}  className="header_nav_nav_ul_li_a">mercury</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("venus")}}  className="header_nav_nav_ul_li_a">venus</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("earth")}}  className="header_nav_nav_ul_li_a">earth</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("mars")}} className="header_nav_nav_ul_li_a">mars</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("jupiter")}} className="header_nav_nav_ul_li_a">jupiter</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("saturn")}} className="header_nav_nav_ul_li_a">saturn</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("uranus")}} className="header_nav_nav_ul_li_a">uranus</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("neptune")}} className="header_nav_nav_ul_li_a">neptune</span></li>
+                    <li className="header_nav_nav_ul_li"><span  onClick={()=>{handleClick("pluto")}} className="header_nav_nav_ul_li_a">pluto</span></li>
                 </ul>   
             </nav>
         </header>
