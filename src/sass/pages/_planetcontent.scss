@@ -5,9 +5,26 @@
     width: 100%;
     &_image_wrapper{
             display: grid;
+            height:100%;
+            width:100%;
         &_img{
-
+            background-repeat:no-repeat;
+            background-size:contain;
+            background-position:center;
+            -webkit-animation:spin 60s linear infinite;
+            -moz-animation:spin 60s linear infinite;
+            animation:spin 60s linear infinite;
         }
+
+    }
+    & video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        z-index: -1;
+    
     }
     &_sidebar{
         width:25vw;
@@ -96,3 +113,6 @@
     }
 
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
