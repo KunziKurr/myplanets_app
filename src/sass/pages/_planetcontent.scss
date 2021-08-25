@@ -7,6 +7,7 @@
             display: grid;
             height:100%;
             width:100%;
+            position: relative; 
         &_img{
             background-repeat:no-repeat;
             background-size:contain;
@@ -14,6 +15,12 @@
             -webkit-animation:spin 60s linear infinite;
             -moz-animation:spin 60s linear infinite;
             animation:spin 60s linear infinite;
+            position: absolute;
+            height: 86%;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
         }
 
     }
